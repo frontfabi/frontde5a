@@ -1,0 +1,49 @@
+nav {
+  &.navBar {
+    align-items: center;
+    background: $bg_color;
+    display: flex;
+    height: 84px;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .toggleNavBar {
+      display: none;
+    }
+
+    .navBarWrapper {
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% - 400px);
+
+      .navbarGroup {
+        align-items: center;
+        display: flex;
+
+        &.navBarLogoNav {
+          .logo {
+            height: 30px;
+          }
+
+          .navBarList {
+            display: flex;
+            list-style: none;
+
+            .navBarItem {
+              .navbarLink {
+                color: $fg_color;
+                text-decoration: none;
+              }
+              
+              &:not(:last-child) {
+                margin-right: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

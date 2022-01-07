@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* Para instalar o sass na sua máquina, use npm install -g sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  background: #EAFFD0;
+}
+
+nav.navBar {
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  height: 84px;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+nav.navBar .toggleNavBar {
+  display: none;
+}
+nav.navBar .navBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 400px);
+}
+nav.navBar .navBarWrapper .navbarGroup {
+  align-items: center;
+  display: flex;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarLogoNav .logo {
+  height: 30px;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarLogoNav .navBarList {
+  display: flex;
+  list-style: none;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarLogoNav .navBarList .navBarItem .navbarLink {
+  color: #000000;
+  text-decoration: none;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarLogoNav .navBarList .navBarItem:not(:last-child) {
+  margin-right: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */
