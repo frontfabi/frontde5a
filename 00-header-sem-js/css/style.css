@@ -43,5 +43,38 @@ nav.navBar .navBarWrapper .navbarGroup.navBarLogoNav .navBarList .navBarItem .na
 nav.navBar .navBarWrapper .navbarGroup.navBarLogoNav .navBarList .navBarItem:not(:last-child) {
   margin-right: 32px;
 }
+nav.navBar .navBarWrapper .navbarGroup.navBarSearchButton .searchInput {
+  align-items: center;
+  background: #EAFFD0;
+  border: 1px solid #529201;
+  display: flex;
+  height: 42px;
+  margin-right: 44px;
+  width: 334px;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarSearchButton .searchInput .searchInputText {
+  background: transparent;
+  border: none;
+  flex: 1;
+  padding: 8px;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarSearchButton .searchInput .searchInputText::placeholder {
+  color: #529201;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarSearchButton .searchInput .searchInputText:focus {
+  outline: none;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarSearchButton .searchInput .searchButton {
+  background: transparent;
+  border: none;
+  margin-left: 40px;
+  font-size: 16px;
+}
+nav.navBar .navBarWrapper .navbarGroup.navBarSearchButton .buyNow {
+  background: #ADFF45;
+  border: none;
+  height: 47px;
+  width: 132px;
+}
 
 /*# sourceMappingURL=style.css.map */
